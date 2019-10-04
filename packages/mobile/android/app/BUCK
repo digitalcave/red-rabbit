@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.redrabbit",
+    package = "com.digitalcave.redrabbit",
 )
 
 android_resource(
     name = "res",
-    package = "com.redrabbit",
+    package = "com.digitalcave.redrabbit",
     res = "src/main/res",
 )
 
