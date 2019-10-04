@@ -93,3 +93,5 @@ buck-out/
 
 # CocoaPods
 /packages/mobile/ios/Pods/
+
+.jest/

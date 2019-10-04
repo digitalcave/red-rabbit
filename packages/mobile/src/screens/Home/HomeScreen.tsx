@@ -1,11 +1,11 @@
 import React from 'react'
 import { gql } from 'apollo-boost'
-import { useQuery } from '@apollo/react-hooks'
-import { View, Text } from 'react-native'
-import { TouchableRipple, Surface } from 'react-native-paper'
+import { View, Image } from 'react-native'
+import { TouchableRipple, ActivityIndicator } from 'react-native-paper'
 import { NavigationStackProp } from 'react-navigation-stack'
 
 import styles from './styles'
+import { useFetch } from '../../utils/hooks'
 
 interface Props {
   navigation: NavigationStackProp<{ userId: string }>
@@ -21,17 +21,15 @@ const PRODUCTS = gql`
 `
 
 const HomeScreen: React.FC<Props> = ({ navigation }) => {
-  const { data, loading, error } = useQuery(PRODUCTS)
+  // const { data, loading, error } = useQuery(PRODUCTS)
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Home</Text>
-      <Surface style={styles.card}>
-        <TouchableRipple onPress={() => navigation.navigate('Detail')} rippleColor="rgba(0, 0, 0, .32)">
-          <View style={styles.button}>
-            <Text style={styles.buttonText}>Detail</Text>
-          </View>
-        </TouchableRipple>
-      </Surface>
+    <View>
+      <TouchableRipple onPress={() => navigation.navigate('Detail')} rippleColor="rgba(0, 0, 0, .32)">
+        <View style={styles.button}>
+          <Image style={styles.image} source={{ uri: 'https://picsum.photos/600/800' }} />
+        </View>
+      </TouchableRipple>
     </View>
   )
 }
