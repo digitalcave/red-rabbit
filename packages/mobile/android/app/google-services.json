@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "233763062199",
+    "firebase_url": "https://digitalcave-red-rabbit.firebaseio.com",
+    "project_id": "digitalcave-red-rabbit",
+    "storage_bucket": "digitalcave-red-rabbit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233763062199:android:c9dc6676cd7237541ba832",
+        "android_client_info": {
+          "package_name": "com.digitalcave.redrabbit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233763062199-ktlveqm9uimpebhciopgoqq8h8nkva4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digitalcave.redrabbit",
+            "certificate_hash": "7873fa0e70b8e5dbe8a2a9c30df810c04a3565c4"
+          }
+        },
+        {
+          "client_id": "233763062199-13rmiuhhukvj6qorkjuilk0gh38uq9g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoPTOgdRi3yprHGSI4L9SbUYEN1ImAMP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233763062199-13rmiuhhukvj6qorkjuilk0gh38uq9g8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "233763062199-6lm4v7gpfdep9sp4o2jk81pk42h09psg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.digitalcave.redrabbit"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
