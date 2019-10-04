@@ -1,4 +1,4 @@
-package com.redrabbit;
+package com.digitalcave.redrabbit;
 
 import com.facebook.react.ReactActivity;
 
