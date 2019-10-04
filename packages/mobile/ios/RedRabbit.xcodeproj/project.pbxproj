@@ -19,6 +19,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* RedRabbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RedRabbitTests.m */; };
 		2DFE362147F23CC5F8FCE501 /* libPods-RedRabbit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E71287BDF3125CC1FE66ED4 /* libPods-RedRabbit.a */; };
+		8B2216C62347793200036AAE /* tinderclone.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B2216C42347793200036AAE /* tinderclone.ttf */; };
 		C920A3FE1C1A4C2B1DBB2C12 /* libPods-RedRabbit-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97701B0430F584922A0251C0 /* libPods-RedRabbit-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		3EA06BAE349758C4B965EB72 /* Pods-RedRabbit-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedRabbit-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RedRabbit-tvOSTests/Pods-RedRabbit-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		548F99CC4966FA2508F3D3D6 /* Pods-RedRabbitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedRabbitTests.debug.xcconfig"; path = "Target Support Files/Pods-RedRabbitTests/Pods-RedRabbitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		648EDA70B7686391B1FA737E /* Pods-RedRabbit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedRabbit.debug.xcconfig"; path = "Target Support Files/Pods-RedRabbit/Pods-RedRabbit.debug.xcconfig"; sourceTree = "<group>"; };
+		8B2216C42347793200036AAE /* tinderclone.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = tinderclone.ttf; path = ../../src/assets/fonts/tinderclone.ttf; sourceTree = "<group>"; };
 		8E71287BDF3125CC1FE66ED4 /* libPods-RedRabbit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RedRabbit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97701B0430F584922A0251C0 /* libPods-RedRabbit-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RedRabbit-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1F91B9EE24159B2747B2CD /* Pods-RedRabbit-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedRabbit-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RedRabbit-tvOS/Pods-RedRabbit-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				8B2216C2234778E300036AAE /* fonts */,
 				13B07FAE1A68108700A75B9A /* RedRabbit */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RedRabbitTests */,
@@ -182,6 +185,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8B2216C2234778E300036AAE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B2216C42347793200036AAE /* tinderclone.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		8E42016167FA606C1F1B7F7A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,7 +205,6 @@
 				548F99CC4966FA2508F3D3D6 /* Pods-RedRabbitTests.debug.xcconfig */,
 				197D1A7DC7B0E09CF5461B2D /* Pods-RedRabbitTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -309,6 +319,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -339,6 +350,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				8B2216C62347793200036AAE /* tinderclone.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
