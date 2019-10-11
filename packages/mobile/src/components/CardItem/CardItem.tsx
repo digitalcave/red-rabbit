@@ -4,7 +4,17 @@ import styles from './CardItem.styles'
 import { Text, View, Image, Dimensions, TouchableOpacity } from 'react-native'
 import Icon from '../Icon/Icon'
 
-const CardItem = ({ actions, description, image, matches, name, onPressLeft, onPressRight, status, variant }: any) => {
+const CardItem: React.FC<$FixMe> = ({
+  actions,
+  description,
+  image,
+  matches,
+  name,
+  onPressLeft,
+  onPressRight,
+  status,
+  variant,
+}) => {
   // Custom styling
   const fullWidth = Dimensions.get('window').width
   const imageStyle = [

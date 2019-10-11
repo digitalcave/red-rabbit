@@ -22,10 +22,6 @@ const styles = StyleSheet.create({
     fontSize: 12,
     paddingTop: 5,
   },
-  content: {
-    color: GRAY,
-    fontSize: 13,
-  },
 })
 
 export default styles
