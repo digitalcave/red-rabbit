@@ -1,20 +1,20 @@
 import { StyleSheet } from 'react-native'
-import { WHITE, BLACK, ICON_FONT, DARK_GRAY } from '../../variables'
+import { Colors, Fonts } from '../../theme';
 
 export default StyleSheet.create({
   city: {
-    backgroundColor: WHITE,
+    backgroundColor: Colors.white,
     padding: 10,
     borderRadius: 20,
     width: 90,
     shadowOpacity: 0.05,
     shadowRadius: 10,
-    shadowColor: BLACK,
+    shadowColor: Colors.black,
     shadowOffset: { height: 0, width: 0 },
   },
   cityText: {
-    fontFamily: ICON_FONT,
-    color: DARK_GRAY,
+    fontFamily: Fonts.regular,
+    color: Colors.darkGray,
     fontSize: 13,
   },
 })

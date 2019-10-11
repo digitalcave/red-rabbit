@@ -4,7 +4,7 @@ import styles from './City.styles'
 import { Text, TouchableOpacity } from 'react-native'
 import Icon from '../Icon/Icon'
 
-const City = () => {
+const City: React.FC = () => {
   return (
     <TouchableOpacity style={styles.city}>
       <Text style={styles.cityText}>

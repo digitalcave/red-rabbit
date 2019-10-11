@@ -27,7 +27,8 @@
     "react-native-vector-icons": "6.6.0",
     "react-navigation": "4.0.10",
     "react-navigation-material-bottom-tabs": "2.1.2",
-    "react-navigation-stack": "2.0.0-alpha.19"
+    "react-navigation-stack": "2.0.0-alpha.19",
+    "react-native-responsive-screen": "https://github.com/emaLorenzo/react-native-responsive-screen.git"
   },
   "devDependencies": {
     "@babel/core": "7.6.2",

@@ -6,7 +6,7 @@ export default [
     match: '78',
     description: 'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
     message: 'I will go back to Gotham and I will fight men Iike this but I will not become an executioner.',
-    image: 'https://picsum.photos/200/300',
+    image: require('./assets/images/01.jpg'),
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export default [
     description: 'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
     status: 'Offline',
     message: "Someone like you. Someone who'll rattle the cages.",
-    image: 'https://picsum.photos/200/300',
+    image: require('./assets/images/01.jpg'),
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export default [
     description: 'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
     status: 'Offline',
     message: 'Oh, hee-hee, aha. Ha, ooh, hee, ha-ha, ha-ha. And I thought my jokes were bad.',
-    image: 'https://picsum.photos/200/300',
+    image: require('./assets/images/01.jpg'),
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export default [
     description: 'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
     status: 'Online',
     message: "Bats frighten me. It's time my enemies shared my dread.",
-    image: 'https://picsum.photos/200/300',
+    image: require('./assets/images/01.jpg'),
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export default [
     description: 'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
     status: 'Offline',
     message: "It's not who I am underneath but what I do that defines me.",
-    image: 'https://picsum.photos/200/300',
+    image: require('./assets/images/01.jpg'),
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ export default [
     description: 'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
     status: 'Online',
     message: 'You have nothing, nothing to threaten me with. Nothing to do with all your strength.',
-    image: 'https://picsum.photos/200/300',
+    image: require('./assets/images/01.jpg'),
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ export default [
     description: 'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
     status: 'Online',
     message: "Never start with the head. The victim gets all fuzzy. He can't feel the next... See?",
-    image: 'https://picsum.photos/200/300',
+    image: require('./assets/images/01.jpg'),
   },
   {
     id: 8,
@@ -75,7 +75,7 @@ export default [
     info4: 'Last seen: 23h ago',
     status: 'Online',
     message: "And as for the television's so-called plan, Batman has no jurisdiction.",
-    image: 'https://picsum.photos/200/300',
+    image: require('./assets/images/01.jpg'),
   },
   {
     id: 9,
@@ -84,7 +84,7 @@ export default [
     description: 'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
     status: 'Online',
     message: 'This is what happens when an unstoppable force meets an immovable object.',
-    image: 'https://picsum.photos/200/300',
+    image: require('./assets/images/01.jpg'),
   },
   {
     id: 10,
@@ -93,6 +93,6 @@ export default [
     description: 'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
     status: 'Offline',
     message: 'You want order in Gotham. Batman must take off his mask and turn himself in.',
-    image: 'https://picsum.photos/200/300',
+    image: require('./assets/images/01.jpg'),
   },
 ]

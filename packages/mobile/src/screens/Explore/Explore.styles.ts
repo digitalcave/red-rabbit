@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native'
-import { DIMENSION_WIDTH, DIMENSION_HEIGHT } from '../../variables'
 
 const styles = StyleSheet.create({
   button: {
@@ -14,8 +13,8 @@ const styles = StyleSheet.create({
   bg: {
     flex: 1,
     resizeMode: 'cover',
-    width: DIMENSION_WIDTH,
-    height: DIMENSION_HEIGHT,
+    width: '100%',
+    height: '100%',
   },
   top: {
     paddingTop: 50,
