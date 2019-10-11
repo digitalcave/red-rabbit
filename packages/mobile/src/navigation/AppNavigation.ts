@@ -1,32 +1,20 @@
 import { createAppContainer } from 'react-navigation'
-import { createStackNavigator } from 'react-navigation-stack'
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs'
-
-import DetailScreen from '../screens/Detail'
-import HomeScreen from '../screens/Home'
-
-const HomeStack = createStackNavigator({
-  Home: {
-    screen: HomeScreen,
-    navigationOptions: {
-      title: 'Chapapp',
-    },
-  },
-  Detail: {
-    screen: DetailScreen,
-    navigationOptions: {
-      title: 'Detalle',
-    },
-  },
-})
+import { Explore, Matches, Chat, Profile } from '../screens'
 
 const AppStack = createMaterialBottomTabNavigator(
   {
-    Home: {
-      screen: HomeStack,
+    Explore: {
+      screen: Explore,
+    },
+    Matches: {
+      screen: Matches,
+    },
+    Chat: {
+      screen: Chat,
     },
     Profile: {
-      screen: DetailScreen,
+      screen: Profile,
     },
   },
   {
