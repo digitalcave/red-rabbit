@@ -1,16 +1,17 @@
 import { StyleSheet } from 'react-native'
-import { DIMENSION_WIDTH, DIMENSION_HEIGHT, ICON_FONT, WHITE, PRIMARY_COLOR, SECONDARY_COLOR } from '../../variables'
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
+import { Colors, Fonts } from '../../theme';
 
 const styles = StyleSheet.create({
   bg: {
     flex: 1,
     resizeMode: 'cover',
-    width: DIMENSION_WIDTH,
-    height: DIMENSION_HEIGHT,
+    width: wp(100),
+    height: hp(100),
   },
   containerProfile: { marginHorizontal: 0 },
   photo: {
-    width: DIMENSION_WIDTH,
+    width: wp(100),
     height: 450,
   },
   top: {
@@ -21,17 +22,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   topIconLeft: {
-    fontFamily: ICON_FONT,
+    fontFamily: Fonts.regular,
     fontSize: 20,
-    color: WHITE,
+    color: Colors.white,
     paddingLeft: 20,
     marginTop: -20,
     transform: [{ rotate: '90deg' }],
   },
   topIconRight: {
-    fontFamily: ICON_FONT,
+    fontFamily: Fonts.regular,
     fontSize: 20,
-    color: WHITE,
+    color: Colors.white,
     paddingRight: 20,
   },
   actionsProfile: {
@@ -39,18 +40,18 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
   },
-  iconButton: { fontFamily: ICON_FONT, fontSize: 20, color: WHITE },
+  iconButton: { fontFamily: Fonts.regular, fontSize: 20, color: Colors.white },
   textButton: {
-    fontFamily: ICON_FONT,
+    fontFamily: Fonts.regular,
     fontSize: 15,
-    color: WHITE,
+    color: Colors.white,
     paddingLeft: 5,
   },
   circledButton: {
     width: 50,
     height: 50,
     borderRadius: 25,
-    backgroundColor: PRIMARY_COLOR,
+    backgroundColor: Colors.primary,
     justifyContent: 'center',
     alignItems: 'center',
     marginRight: 10,
@@ -62,7 +63,7 @@ const styles = StyleSheet.create({
     marginLeft: 10,
     height: 50,
     borderRadius: 25,
-    backgroundColor: SECONDARY_COLOR,
+    backgroundColor: Colors.secondary,
     paddingHorizontal: 20,
   },
 })

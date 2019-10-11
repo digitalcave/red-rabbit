@@ -1,12 +1,12 @@
 import { StyleSheet } from 'react-native'
-import { DIMENSION_WIDTH, DIMENSION_HEIGHT, DARK_GRAY, ICON_FONT } from '../../variables'
+import { Colors, Fonts } from '../../theme';
 
 const styles = StyleSheet.create({
   bg: {
     flex: 1,
     resizeMode: 'cover',
-    width: DIMENSION_WIDTH,
-    height: DIMENSION_HEIGHT,
+    width: '100%',
+    height: '100%',
   },
   top: {
     paddingTop: 50,
@@ -15,11 +15,11 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
-  title: { paddingBottom: 10, fontSize: 22, color: DARK_GRAY },
+  title: { paddingBottom: 10, fontSize: 22, color: Colors.darkGray },
   icon: {
-    fontFamily: ICON_FONT,
+    fontFamily: Fonts.regular,
     fontSize: 20,
-    color: DARK_GRAY,
+    color: Colors.darkGray,
     paddingRight: 10,
   },
   containerMessages: {

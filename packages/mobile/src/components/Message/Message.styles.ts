@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native'
-import { DIMENSION_WIDTH, GRAY } from '../../variables'
+import {widthPercentageToDP as wp} from 'react-native-responsive-screen';
+import { Colors } from '../../theme';
 
 const styles = StyleSheet.create({
   containerMessage: {
@@ -8,7 +9,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     flexDirection: 'row',
     paddingHorizontal: 10,
-    width: DIMENSION_WIDTH - 100,
+    width: wp(100) - 100,
   },
   avatar: {
     borderRadius: 30,
@@ -18,7 +19,7 @@ const styles = StyleSheet.create({
     marginVertical: 15,
   },
   message: {
-    color: GRAY,
+    color: Colors.gray,
     fontSize: 12,
     paddingTop: 5,
   },
