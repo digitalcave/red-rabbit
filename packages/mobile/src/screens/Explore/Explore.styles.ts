@@ -23,6 +23,18 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
+  center: {
+    marginTop: '50%',
+    marginHorizontal: '5%',
+    padding: '3%',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0,0,0,.6)',
+    borderRadius: 10,
+  },
+  centerText: {
+    fontSize: 17,
+    color: '#fff',
+  },
 })
 
 export default styles

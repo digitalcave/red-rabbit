@@ -1,6 +1,6 @@
 import React from 'react'
 import { gql } from 'apollo-boost'
-import { View, ImageBackground } from 'react-native'
+import { View, ImageBackground, Text } from 'react-native'
 import CardStack, { Card } from 'react-native-card-stack-swiper'
 import { NavigationStackProp } from 'react-navigation-stack'
 
@@ -32,9 +32,14 @@ const Explore: React.FC<Props> = ({ navigation }) => {
         </View>
 
         <CardStack
-          loop={true}
+          loop={false}
           verticalSwipe={false}
-          renderNoMoreCards={() => null}
+          renderNoMoreCards={() => (
+            <View style={styles.center}>
+              <Text style={styles.centerText}>We have run out of possible matches.</Text>
+              <Text style={styles.centerText}>Try again later!</Text>
+            </View>
+          )}
           ref={(swiper_: $FixMe) => (swiper = swiper_)}
         >
           {mock.map((item: $FixMe, index: $FixMe) => (
