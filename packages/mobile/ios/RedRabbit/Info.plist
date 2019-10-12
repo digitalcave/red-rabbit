@@ -41,6 +41,7 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Ionicons.ttf</string>
 		<string>tinderclone.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
