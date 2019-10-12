@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native'
-import {widthPercentageToDP as wp} from 'react-native-responsive-screen';
-import { Colors } from '../../theme';
+import { widthPercentageToDP as wp } from 'react-native-responsive-screen'
+import { Colors } from '../../theme'
 
 const styles = StyleSheet.create({
   containerMessage: {
