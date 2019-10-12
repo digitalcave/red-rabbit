@@ -2,7 +2,7 @@ import React from 'react'
 import { ScrollView, View, Text, TouchableOpacity, ImageBackground, FlatList } from 'react-native'
 import mock from '../../mock'
 import { Icon, CardItem } from '../../components'
-import styles from './Matches.styles'
+import styles from './MatchesScreen.styles'
 
 const Matches: React.FC = (props) => (
   <ImageBackground source={require('../../assets/images/bg.png')} style={styles.bg}>

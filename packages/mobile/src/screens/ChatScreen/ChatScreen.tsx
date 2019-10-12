@@ -3,7 +3,7 @@ import { ScrollView, Text, TouchableOpacity, ImageBackground, View, FlatList } f
 import { Message, Icon } from '../../components'
 import mock from '../../mock'
 
-import styles from './Chat.styles'
+import styles from './ChatScreen.styles'
 
 const Chat: React.FC = (props) => (
   <ImageBackground source={require('../../assets/images/bg.png')} style={styles.bg}>

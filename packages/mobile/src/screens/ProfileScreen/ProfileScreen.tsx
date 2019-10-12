@@ -2,7 +2,7 @@ import React from 'react'
 import { ScrollView, View, Text, ImageBackground, TouchableOpacity } from 'react-native'
 import { Icon, ProfileItem } from '../../components'
 import mock from '../../mock'
-import styles from './Profile.styles'
+import styles from './ProfileScreen.styles'
 
 const Profile: React.FC = (props) => {
   const { age, image, info1, info2, info3, info4, location, match, name } = mock[7]

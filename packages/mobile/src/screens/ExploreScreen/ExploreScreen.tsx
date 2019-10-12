@@ -4,7 +4,7 @@ import { View, ImageBackground } from 'react-native'
 import CardStack, { Card } from 'react-native-card-stack-swiper'
 import { NavigationStackProp } from 'react-navigation-stack'
 
-import styles from './Explore.styles'
+import styles from './ExploreScreen.styles'
 import { City, CardItem } from '../../components'
 import mock from '../../mock'
 

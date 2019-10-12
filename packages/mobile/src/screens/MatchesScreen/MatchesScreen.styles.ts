@@ -1,12 +1,13 @@
 import { StyleSheet } from 'react-native'
-import { Colors, Fonts } from '../../theme';
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen'
+import { Colors, Fonts } from '../../theme'
 
 const styles = StyleSheet.create({
   bg: {
     flex: 1,
     resizeMode: 'cover',
-    width: '100%',
-    height: '100%',
+    width: wp(100),
+    height: hp(100),
   },
   top: {
     paddingTop: 50,
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
     color: Colors.darkGray,
     paddingRight: 10,
   },
-  containerMessages: {
+  containerMatches: {
     justifyContent: 'space-between',
     flex: 1,
     paddingHorizontal: 10,
