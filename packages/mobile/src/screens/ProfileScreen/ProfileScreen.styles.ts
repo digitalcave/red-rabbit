@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     height: 450,
   },
   top: {
-    paddingTop: 50,
+    paddingTop: hp(2.9),
     marginHorizontal: 10,
     flexDirection: 'row',
     justifyContent: 'space-between',

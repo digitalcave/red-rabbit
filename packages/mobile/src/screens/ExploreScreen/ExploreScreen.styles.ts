@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native'
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen'
 
 const styles = StyleSheet.create({
   button: {
@@ -17,19 +18,20 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   top: {
-    paddingTop: 50,
+    paddingTop: hp(2),
     marginHorizontal: 10,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
   },
   center: {
-    marginTop: '50%',
-    marginHorizontal: '5%',
-    padding: '3%',
+    marginTop: hp(40),
+    marginHorizontal: wp(7),
+    paddingVertical: hp(2),
+    paddingHorizontal: wp(4),
     alignItems: 'center',
     backgroundColor: 'rgba(0,0,0,.6)',
-    borderRadius: 10,
+    borderRadius: wp(3),
   },
   centerText: {
     fontSize: 17,
