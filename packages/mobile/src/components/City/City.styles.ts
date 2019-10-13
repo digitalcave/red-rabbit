@@ -6,7 +6,7 @@ export default StyleSheet.create({
     backgroundColor: Colors.white,
     padding: 10,
     borderRadius: 20,
-    width: 90,
+    alignSelf: 'flex-start',
     shadowOpacity: 0.05,
     shadowRadius: 10,
     shadowColor: Colors.black,
