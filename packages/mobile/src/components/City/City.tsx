@@ -2,13 +2,13 @@ import React from 'react'
 import styles from './City.styles'
 
 import { Text, TouchableOpacity } from 'react-native'
-import Icon from '../Icon/Icon'
+import Icon from 'react-native-vector-icons/FontAwesome5'
 
 const City: React.FC = () => {
   return (
     <TouchableOpacity style={styles.city}>
       <Text style={styles.cityText}>
-        <Icon name="marker" /> New York
+        <Icon name="map-marker-alt" size={15} /> New York
       </Text>
     </TouchableOpacity>
   )
