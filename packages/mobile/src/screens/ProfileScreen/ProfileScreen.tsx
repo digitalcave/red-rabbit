@@ -21,7 +21,7 @@ const Profile: React.FC = (props) => {
 
             <TouchableOpacity>
               <Text style={styles.topIconRight}>
-              <Icon name="ios-options" size={24} />
+                <Icon name="ios-options" size={24} />
               </Text>
             </TouchableOpacity>
           </View>

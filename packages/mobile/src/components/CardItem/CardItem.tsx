@@ -44,7 +44,7 @@ const CardItem: React.FC<$FixMe> = ({
       {matches && (
         <View style={styles.matchesCardItem}>
           <Text style={styles.matchesTextCardItem}>
-            <Icon name="ios-heart" size={14}/> {matches}% Match!
+            <Icon name="ios-heart" size={14} /> {matches}% Match!
           </Text>
         </View>
       )}
