@@ -7,6 +7,11 @@ const client = new ApolloClient({
   uri: 'http://localhost:4000/graphql',
 })
 
+if (__DEV__) {
+  // eslint-disable-next-line
+  import('./ReactotronConfig').then(() => console.log('Reactotron Configured'))
+}
+
 const App = () => (
   <ApolloProvider client={client}>
     <Root />
