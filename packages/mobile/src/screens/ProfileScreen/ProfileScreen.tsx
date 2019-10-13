@@ -1,6 +1,7 @@
 import React from 'react'
 import { ScrollView, View, Text, ImageBackground, TouchableOpacity } from 'react-native'
-import { Icon, ProfileItem } from '../../components'
+import { ProfileItem } from '../../components'
+import Icon from 'react-native-vector-icons/Ionicons'
 import mock from '../../mock'
 import styles from './ProfileScreen.styles'
 
@@ -20,7 +21,7 @@ const Profile: React.FC = (props) => {
 
             <TouchableOpacity>
               <Text style={styles.topIconRight}>
-                <Icon name="optionsV" />
+              <Icon name="ios-options" size={24} />
               </Text>
             </TouchableOpacity>
           </View>

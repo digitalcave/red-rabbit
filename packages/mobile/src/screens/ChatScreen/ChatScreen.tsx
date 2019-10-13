@@ -1,6 +1,7 @@
 import React from 'react'
 import { ScrollView, Text, TouchableOpacity, ImageBackground, View, FlatList } from 'react-native'
-import { Message, Icon } from '../../components'
+import { Message } from '../../components'
+import Icon from 'react-native-vector-icons/Ionicons'
 import mock from '../../mock'
 
 import styles from './ChatScreen.styles'
@@ -13,7 +14,7 @@ const Chat: React.FC = (props) => (
           <Text style={styles.title}>Messages</Text>
           <TouchableOpacity>
             <Text style={styles.icon}>
-              <Icon name="optionsV" />
+              <Icon name="ios-options" size={24} />
             </Text>
           </TouchableOpacity>
         </View>

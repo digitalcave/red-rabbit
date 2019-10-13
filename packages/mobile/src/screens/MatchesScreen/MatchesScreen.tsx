@@ -1,7 +1,8 @@
 import React from 'react'
 import { ScrollView, View, Text, TouchableOpacity, ImageBackground, FlatList } from 'react-native'
 import mock from '../../mock'
-import { Icon, CardItem } from '../../components'
+import { CardItem } from '../../components'
+import Icon from 'react-native-vector-icons/Ionicons'
 import styles from './MatchesScreen.styles'
 
 const Matches: React.FC = (props) => (
@@ -12,7 +13,7 @@ const Matches: React.FC = (props) => (
           <Text style={styles.title}>Matches</Text>
           <TouchableOpacity>
             <Text style={styles.icon}>
-              <Icon name="optionsV" />
+              <Icon name="ios-options" size={24} />
             </Text>
           </TouchableOpacity>
         </View>
