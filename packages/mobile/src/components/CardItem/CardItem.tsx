@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './CardItem.styles'
 
 import { Text, View, Image, Dimensions, TouchableOpacity } from 'react-native'
-import Icon from '../Icon/Icon'
+import Icon from 'react-native-vector-icons/Ionicons'
 
 const CardItem: React.FC<$FixMe> = ({
   actions,
@@ -44,7 +44,7 @@ const CardItem: React.FC<$FixMe> = ({
       {matches && (
         <View style={styles.matchesCardItem}>
           <Text style={styles.matchesTextCardItem}>
-            <Icon name="heart" /> {matches}% Match!
+            <Icon name="ios-heart" size={14}/> {matches}% Match!
           </Text>
         </View>
       )}
