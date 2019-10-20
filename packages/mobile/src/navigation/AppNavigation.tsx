@@ -1,7 +1,8 @@
 import React from 'react'
 import { createAppContainer } from 'react-navigation'
+import { createStackNavigator } from 'react-navigation-stack'
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs'
-import { Explore, Matches, Chat, Profile } from '../screens'
+import { Login, Explore, Matches, Chat, Profile } from '../screens'
 import Icon from 'react-native-vector-icons/Ionicons'
 
 const ExploreIcon: React.FC<{ tintColor?: string }> = ({ tintColor }) => (
@@ -16,6 +17,7 @@ const ChatIcon: React.FC<{ tintColor?: string }> = ({ tintColor }) => (
 const ProfileIcon: React.FC<{ tintColor?: string }> = ({ tintColor }) => (
   <Icon name="ios-person" color={tintColor} size={24} />
 )
+
 const AppStack = createMaterialBottomTabNavigator(
   {
     Explore: {
@@ -48,4 +50,9 @@ const AppStack = createMaterialBottomTabNavigator(
   },
 )
 
-export default createAppContainer(AppStack)
+const LoginStack = createStackNavigator({
+  Login,
+  AppStack,
+})
+
+export default createAppContainer(LoginStack)

@@ -1,3 +1,4 @@
+export { default as Login } from './Auth/LoginScreen/LoginScreen'
 export { default as Profile } from './ProfileScreen/ProfileScreen'
 export { default as Explore } from './ExploreScreen/ExploreScreen'
 export { default as Matches } from './MatchesScreen/MatchesScreen'
