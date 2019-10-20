@@ -21,9 +21,7 @@ const LoginScreen: React.FC = () => {
       const credential = firebase.auth.FacebookAuthProvider.credential(data.accessToken)
       const user = await firebase.auth().signInWithCredential(credential)
       setUser(user)
-    } catch (e) {
-      console.log(e)
-    }
+    } catch (e) {}
   }
   return (
     <View style={{ padding: 30 }}>

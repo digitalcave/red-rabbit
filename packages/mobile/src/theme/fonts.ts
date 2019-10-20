@@ -1,3 +1,3 @@
 export default {
-  regular: 'tinderclone'
+  regular: 'tinderclone',
 }
