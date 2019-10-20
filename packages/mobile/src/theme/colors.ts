@@ -1,5 +1,3 @@
-import { Dimensions } from 'react-native'
-
 export default {
   primary: '#7444C0',
   secondary: '#5636B8',
